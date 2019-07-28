@@ -1,0 +1,144 @@
+/* #container {
+  background-image: linear-gradient(#11998e, #38ef7d);
+  height: 100vh; */
+  /* position: relative; */
+/* } */
+
+/* .card-center {
+  background-color: white;
+  position: absolute; */
+  /* top: 50%;
+  left: 50%; */
+  /* width: 20%;
+  height: 40%; */
+  /* margin-left: -450px;
+  margin-top: -275px; */
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.login-form {
+  margin-top: 30%;
+}
+.login-form h4 {
+  color: #12c036;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.right-container {
+  background-color: #eeeeee;
+}
+.priv-shadow {
+  box-shadow: 2px 2px #d8d5d5;
+}
+.img-logo {
+  margin-top: 15vh;
+}
+.img {
+  height: 50%;
+  width: 52%;
+}
+.transform {
+  display: flex;
+  justify-content: center
+} */
+
+/* //NEW */
+/* @import url('https://fonts.googleapis.com/css?family=Numans'); */
+
+/* .lookUp{
+background-image: url('http://getwallpapers.com/wallpaper/full/a/5/d/544750.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+font-family: 'Numans', sans-serif;
+}  */
+
+body {
+  margin: 0;
+  padding: 0;
+/*   background: url(https://picsum.photos/2500/1500?image=1041);
+  background-size: cover; */
+  font-family: sans-serif;
+}
+
+.box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 25rem;
+  padding: 2.5rem;
+  box-sizing: border-box;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 0.625rem;
+}
+
+.box h2 {
+  margin: 0 0 1.875rem;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+}
+
+.box .inputBox {
+  position: relative;
+}
+
+.box .inputBox input {
+  width: 100%;
+  padding: 0.625rem 0;
+  font-size: 1rem;
+  color: #fff;
+  letter-spacing: 0.062rem;
+  margin-bottom: 1.875rem;
+  border: none;
+  border-bottom: 0.065rem solid #fff;
+  outline: none;
+  background: transparent;
+}
+
+.box .inputBox label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0.625rem 0;
+  font-size: 1rem;
+  color: #fff;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+.box .inputBox input:focus ~ label,
+.box .inputBox input:valid ~ label,
+.box .inputBox input:not([value=""]) ~ label {
+  top: -1.125rem;
+  left: 0;
+  color: #03a9f4;
+  font-size: 0.75rem;
+}
+
+.box input[type="submit"] {
+  border: none;
+  outline: none;
+  color: #fff;
+  background-color: #03a9f4;
+  padding: 0.625rem 1.25rem;
+  cursor: pointer;
+  border-radius: 0.312rem;
+  font-size: 1rem;
+}
+
+.box input[type="submit"]:hover {
+  background-color: #1cb1f5;
+}
+
+.btn-outline-success {
+  color: white !important;
+  background-color: transparent;
+  background-image: none;
+  border-color: white !important;
+}
+
+.errorClass{
+  color: white;
+}

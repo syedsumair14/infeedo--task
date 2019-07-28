@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* @import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP:700,900&display=swap'); */
+
+.newspaper-title {
+    margin-top: 30px;
+    font-family: 'Noto Serif JP', serif;
+    font-weight: 900;
+    letter-spacing: 0.6px;
+    text-align: center;
+}
+
+.title {
+    margin-top: 10px;
+    padding-bottom: 12px;
+}
+
+.author {
+    padding-bottom: 12px;
+    font-weight: 300;
+    color: #939393;
+}
+
+p {
+    margin-bottom: 10px;
+    line-height: 25px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.main-article {
+    font-family: 'Georgia';
+    margin: 30px 0;
+    padding: 10px 22px;
+    border: 1px solid #EDEDED;
+    border-radius: 3px;
+}
+
+/* comments css */
+.comments-wrapper {
+    border-top: 1px solid #eee;
+    padding-top: 32px;
+  }
+  .comments-wrapper h2 a {
+    text-decoration: none;
+    font-size: 14px;
+    float: right;
+    font-weight: 400;
+  }
+  
+  /** COMMENTS FORM **/
+  .comments-form .field-wrapper {
+    margin-bottom: 16px;
+  }
+  .comments-form label {
+    display: inline-block;
+    font-size: 12px;
+    color: #999;
+    text-transform: uppercase;
+    padding-left: 5px;
+  }
+  .comments-form input[type="text"],
+  .comments-form textarea {
+    box-sizing: border-box;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    float: none;
+    display: block;
+    clear: both;
+    outline: none;
+    padding: 8px;
+    width: 100%;
+    transition: all 0.3s ease-in-out;
+  }
+  .comments-form input[type="text"]:focus,
+  .comments-form textarea:focus {
+    background-color: #fbfbfb;
+  }
+  .comments-form input[type="text"] {
+    height: 40px;
+    line-height: 40px;
+    max-width: 340px;
+  }
+  .comments-form textarea {
+    height: 150px;
+  }
+  
+  /** COMMENTS **/
+  .comments {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 32px auto;
+    padding: 0;
+  }
+  .comments * {
+    box-sizing: border-box;
+  }
+  .comments li {
+    overflow: hidden;
+    border-radius: 5px;
+    margin-bottom: 16px;
+  }
+  
+  .comment-author-meta {
+    display: block;
+    float: none;
+    clear: both;
+    padding: 10px 16px;
+    background-color: #ebebeb;
+    overflow: hidden;
+  }
+
+  .match {
+    background-color: #333;
+    color: white;
+  }
+
+  .comment-author-meta .avatar {
+    width: 40px;
+    height: 40px;
+    background-color: skyblue;
+    padding: 3px;
+    border-radius: 100%;
+    float: left;
+  }
+  .comment-author-meta .avatar img {
+    width: 100%;
+  }
+  .comment-author-meta .user {
+    float: left;
+    height: 40px;
+    padding: 13px;
+  }
+  .comment-author-meta .delete-comment {
+    color: red;
+    cursor: pointer;
+    float: right;
+    font-size: 120%;
+  }
+  
+  .comment-meta {
+    background-color: #eee;
+    padding: 5px 16px;
+    font-size: 12px;
+    color: #888;
+  }
+  .comment-meta span:first-child {
+    padding-right: 8px;
+    margin-right: 8px;
+    border-right: 1px solid #888;
+  }
+  .comment-meta a {
+    float: right;
+    color: #5bbce4;
+  }
+  
+  .comment-text {
+    float: none;
+    clear: both;
+    padding: 0 16px 16px;
+    border: 1px solid #eee;
+    background-color: #fbfbfb;
+  }
+  
+  /* VUE.JS Transitions */
+  .fade-up-enter-active, .fade-up-leave-to {
+    transition: all .3s ease-in-out;
+    opacity: 0.75;
+  }
+  
+  .fade-up-enter, .fade-up-leave-to {
+    opacity: 0;
+    -webkit-transform: translateY(-32px);
+            transform: translateY(-32px);
+  }
+
+  .contentEditable {
+    border: 1px solid blue;
+  }
+  .text-primary {
+    color: #007B87!important
+  }
+  
